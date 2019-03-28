@@ -18,7 +18,7 @@ setup(
     python_requires=">=3.4",
     package_data={"pythaitts":["thai2ipa.txt"]},
     include_package_data=True,
-    install_requires=["pythainlp"],
+    install_requires=["pythainlp>=2.0"],
     #extras_require=extras,
     license="Apache Software License 2.0",
     zip_safe=False,
