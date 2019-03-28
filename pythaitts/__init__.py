@@ -7,12 +7,13 @@ import sys
 from .thai2ipa import word_tokenize_to_g2p
 
 class TTS(object):
-    def __init__(self,file=False,alphabet="ipa"):
-        self.file=file
+    def __init__(self,alphabet="ipa"):
         self.alphabet=alphabet
-    def speak(self,text):
+    def speak(self,text,file=None):
         #self.list_word=word_tokenize(text)
         self.cmd="espeak-ng -m '"+'<phoneme alphabet="ipa">'+' '.join(word_tokenize_to_g2p(text))+"</phoneme>'"
+        if file!=None:
+            self.cmd+=" -w "+file
         print(self.cmd)
         try:
             getoutput = subprocess.getoutput(self.cmd)
