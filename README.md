@@ -7,6 +7,8 @@ $ pip install https://github.com/PyThaiNLP/pythainlp/archive/dev.zip
 
 $ pip install https://github.com/wannaphongcom/pythaitts/archive/master.zip
 
+and install espeak-ng
+
 ## Using
 
 ```python
