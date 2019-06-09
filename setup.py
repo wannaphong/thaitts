@@ -6,9 +6,9 @@ with open("README.md", "r", encoding="utf-8") as readme_file:
     readme = readme_file.read()
 
 setup(
-    name="pythaitts",
-    version="0.1",
-    description="TTS for Thai Language",
+    name="thaitts",
+    version="0.2dev1",
+    description="Open source thai text to speech engine.",
     long_description=readme,
     long_description_content_type="text/markdown",
     author="Wannaphong Phatthiyaphaibun",
