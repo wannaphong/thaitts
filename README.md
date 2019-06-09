@@ -1,5 +1,6 @@
 # pythaitts
-TTS for Thai language
+
+Open source thai text to speech engine.
 
 Google Colab : https://colab.research.google.com/drive/1e16gG3zpz3Y-fKT4Tw8bAbZWuwVTWEoh
 
